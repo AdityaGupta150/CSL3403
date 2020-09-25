@@ -3,5 +3,18 @@
         "activityBar.background": "#61041B",
         "titleBar.activeBackground": "#880525",
         "titleBar.activeForeground": "#FFFBFC"
+    },
+    "files.associations": {
+        "xstring": "cpp",
+        "cmath": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "ostream": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp"
     }
 }
