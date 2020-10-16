@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>1906082_Photo Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<style>
+    img {
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+        transition: all 2s;
+        box-shadow: 5px 10px #888888;
+    }
+
+    img:hover {
+        transform: translate(50px, 100px) scale(1.4);
+    }
+
+    #sel {
+
+        height: 30px;
+        width: 50px;
+    }
+
+    #sel:hover {
+        background-color: coral;
+        width: 100vw;
+        height: 50px;
+        border-radius: 50px;
+    }
+</style>
+
+<body>
+    <div style="width: 100vw;" class="text-center" id="sel">
+        <h1 style="text-align: center;">Pictures</h1>
+    </div>
+    <br>
+    <h2 style="text-align: center;" class="text-center">Picture Gallery</h2><br></br>
+    <div style="width: 100vw;" class="text-center">
+        <img src="./src/1.jpg">
+        <img src="./src/2.jpg">
+        <img src="./src/3.jpg">
+        <img src="./src/4.png">
+        <img src="./src/5.png">
+    </div>
+</body>
+
+</html>
